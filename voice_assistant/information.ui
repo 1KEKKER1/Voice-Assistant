@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Information</class>
+ <widget class="QDialog" name="Information">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>100</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>341</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Данный шаблон </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>40</y>
+     <width>72</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Яндекс</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Google</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
